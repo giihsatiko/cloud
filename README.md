@@ -1,7 +1,7 @@
 # Passos para executar a aplicação
 
 1) Para executar o banco de dados, rode o comando abaixo:
-docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USER=user -e MYSQL_PASSWORD=passwd -e MYSQL_DATABASE=db_aula mysql/mysql-server:latest
+docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USER=user -e MYSQL_PASSWORD=passwd -e MYSQL_DATABASE=cloud mysql/mysql-server:latest
 
 2) Execute os scripts para criação, uso e população da tabela:
    CREATE database cloud;
