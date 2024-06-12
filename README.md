@@ -18,7 +18,7 @@ docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USE
 
 3) Abra a URL http://localhost:3000/consulta-dados para ver os dados.
 
-1) Para executar a aplicação, rode o comando abaixo:
-docker run -p 3000:3000 --name nodejs-app -d rgcampos/aula-ead:0.0.1
+4) Para executar a aplicação, rode o comando abaixo:
+docker run -p 3000:3000 --name nodejs-app -d sattysz2610/atividade-cloud:latest
 
-2) O link do GitHub é https://github.com/rgcampos/aula-ead-atv04 e do DockerHub é https://hub.docker.com/repository/docker/rgcampos/aula-ead/general
+1) O link do GitHub é https://github.com/giihsatiko/cloud e do DockerHub é https://hub.docker.com/repository/docker/sattysz2610/atividade-cloud/general
